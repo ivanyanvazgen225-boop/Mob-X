@@ -1,0 +1,531 @@
+<!DOCTYPE html>
+<html lang="hy">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Mob-X | Հեռախոսների խանութ Արմավիրում</title>
+
+    <meta name="description"
+          content="Mob-X՝ բջջային հեռախոսներ և աքսեսուարներ Արմավիր քաղաքում։">
+
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+          rel="stylesheet">
+</head>
+
+<body>
+
+<!-- NAVBAR -->
+
+<header class="header">
+    <div class="container nav">
+
+        <a href="#home" class="logo">
+            <span class="logo-icon">M</span>
+            <span>Mob<span>-X</span></span>
+        </a>
+
+        <nav class="menu">
+            <a href="#home">Գլխավոր</a>
+            <a href="#products">Ապրանքներ</a>
+            <a href="#about">Մեր մասին</a>
+            <a href="#contact">Կապ</a>
+        </nav>
+
+        <a href="tel:+37493606588" class="nav-phone">
+            ☎ Զանգահարել
+        </a>
+
+        <button class="menu-button" id="menuButton">
+            ☰
+        </button>
+
+    </div>
+</header>
+
+
+<!-- HERO -->
+
+<main>
+
+<section class="hero" id="home">
+
+    <div class="container hero-content">
+
+        <div class="hero-text">
+
+            <div class="badge">
+                📍 Արմավիր քաղաք
+            </div>
+
+            <h1>
+                Քո հաջորդ
+                <span>սմարթֆոնը</span>
+                այստեղ է։
+            </h1>
+
+            <p>
+                Mob-X՝ հեռախոսների և աքսեսուարների խանութ
+                Արմավիրում։ Ժամանակակից սարքեր, հարմար ընտրություն
+                և սպասարկում մեկ վայրում։
+            </p>
+
+            <div class="hero-buttons">
+                <a href="#products" class="btn primary">
+                    Դիտել ապրանքները →
+                </a>
+
+                <a href="tel:+37493606588" class="btn secondary">
+                    Զանգահարել
+                </a>
+            </div>
+
+            <div class="hero-info">
+
+                <div>
+                    <strong>09:00–21:00</strong>
+                    <small>Ամեն օր</small>
+                </div>
+
+                <div>
+                    <strong>Արմավիր</strong>
+                    <small>Երևանյան փողոց</small>
+                </div>
+
+                <div>
+                    <strong>Mob-X</strong>
+                    <small>Electronics</small>
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <div class="hero-phone">
+
+            <div class="glow"></div>
+
+            <div class="phone">
+                <div class="phone-camera"></div>
+
+                <div class="phone-screen">
+
+                    <div class="screen-top">
+                        <span>9:41</span>
+                        <span>● ● ▰</span>
+                    </div>
+
+                    <div class="screen-logo">
+                        M
+                    </div>
+
+                    <div class="screen-text">
+                        <small>WELCOME TO</small>
+                        <strong>MOB-X</strong>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- CATEGORIES -->
+
+<section class="categories">
+
+    <div class="container">
+
+        <div class="section-title">
+            <span>Կատեգորիաներ</span>
+            <h2>Գտիր քեզ պետք եղածը</h2>
+        </div>
+
+        <div class="category-grid">
+
+            <button class="category-card filter-btn" data-category="phones">
+                <div class="category-icon">📱</div>
+                <h3>Սմարթֆոններ</h3>
+                <p>Ժամանակակից հեռախոսներ</p>
+            </button>
+
+            <button class="category-card filter-btn" data-category="accessories">
+                <div class="category-icon">🎧</div>
+                <h3>Աքսեսուարներ</h3>
+                <p>Ամենօրյա անհրաժեշտ պարագաներ</p>
+            </button>
+
+            <button class="category-card filter-btn" data-category="all">
+                <div class="category-icon">✨</div>
+                <h3>Բոլորը</h3>
+                <p>Դիտել ամբողջ տեսականին</p>
+            </button>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- PRODUCTS -->
+
+<section class="products" id="products">
+
+    <div class="container">
+
+        <div class="products-heading">
+
+            <div class="section-title">
+                <span>Տեսականի</span>
+                <h2>Հանրաճանաչ ապրանքներ</h2>
+            </div>
+
+            <div class="filters">
+
+                <button class="filter active" data-category="all">
+                    Բոլորը
+                </button>
+
+                <button class="filter" data-category="phones">
+                    Հեռախոսներ
+                </button>
+
+                <button class="filter" data-category="accessories">
+                    Աքսեսուարներ
+                </button>
+
+            </div>
+
+        </div>
+
+
+        <div class="product-grid" id="productGrid">
+
+
+            <!-- PRODUCT 1 -->
+
+            <article class="product-card" data-category="phones">
+
+                <div class="product-image phone-image">
+                    <span class="product-label">Նոր</span>
+
+                    <div class="mock-phone">
+                        <div></div>
+                    </div>
+                </div>
+
+                <div class="product-content">
+
+                    <span class="product-category">
+                        Smartphone
+                    </span>
+
+                    <h3>Smartphone Pro</h3>
+
+                    <p>
+                        Ժամանակակից սմարթֆոն՝ բարձր որակի էկրանով։
+                    </p>
+
+                    <div class="product-bottom">
+                        <strong>Գինը՝ կապով</strong>
+
+                        <a href="tel:+37493606588">
+                            Զանգահարել →
+                        </a>
+                    </div>
+
+                </div>
+
+            </article>
+
+
+            <!-- PRODUCT 2 -->
+
+            <article class="product-card" data-category="phones">
+
+                <div class="product-image phone-image second">
+
+                    <span class="product-label sale">
+                        Առաջարկ
+                    </span>
+
+                    <div class="mock-phone">
+                        <div></div>
+                    </div>
+
+                </div>
+
+                <div class="product-content">
+
+                    <span class="product-category">
+                        Smartphone
+                    </span>
+
+                    <h3>Smartphone Plus</h3>
+
+                    <p>
+                        Հարմար տարբերակ ամենօրյա օգտագործման համար։
+                    </p>
+
+                    <div class="product-bottom">
+                        <strong>Գինը՝ կապով</strong>
+
+                        <a href="tel:+37493606588">
+                            Զանգահարել →
+                        </a>
+                    </div>
+
+                </div>
+
+            </article>
+
+
+            <!-- PRODUCT 3 -->
+
+            <article class="product-card" data-category="accessories">
+
+                <div class="product-image accessory-image">
+                    🎧
+                </div>
+
+                <div class="product-content">
+
+                    <span class="product-category">
+                        Աքսեսուար
+                    </span>
+
+                    <h3>Wireless Headphones</h3>
+
+                    <p>
+                        Անլար ականջակալներ՝ հարմար առօրյա օգտագործման համար։
+                    </p>
+
+                    <div class="product-bottom">
+                        <strong>Գինը՝ կապով</strong>
+
+                        <a href="tel:+37493606588">
+                            Զանգահարել →
+                        </a>
+                    </div>
+
+                </div>
+
+            </article>
+
+
+            <!-- PRODUCT 4 -->
+
+            <article class="product-card" data-category="accessories">
+
+                <div class="product-image accessory-image">
+                    🔌
+                </div>
+
+                <div class="product-content">
+
+                    <span class="product-category">
+                        Աքսեսուար
+                    </span>
+
+                    <h3>Fast Charger</h3>
+
+                    <p>
+                        Արագ լիցքավորման հարմար լուծում։
+                    </p>
+
+                    <div class="product-bottom">
+                        <strong>Գինը՝ կապով</strong>
+
+                        <a href="tel:+37493606588">
+                            Զանգահարել →
+                        </a>
+                    </div>
+
+                </div>
+
+            </article>
+
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- ABOUT -->
+
+<section class="about" id="about">
+
+    <div class="container about-grid">
+
+        <div class="about-card">
+
+            <div class="big-logo">
+                M
+            </div>
+
+        </div>
+
+        <div class="about-text">
+
+            <span>ՄԵՐ ՄԱՍԻՆ</span>
+
+            <h2>
+                Mob-X՝ տեխնոլոգիաները
+                ավելի մոտ։
+            </h2>
+
+            <p>
+                Mob-X-ը Արմավիր քաղաքում գործող էլեկտրոնիկայի խանութ է։
+                Այստեղ կարող եք գտնել բջջային հեռախոսներ և տարբեր
+                աքսեսուարներ։
+            </p>
+
+            <div class="about-list">
+
+                <div>
+                    <b>✓</b>
+                    <span>Հարմար ընտրություն</span>
+                </div>
+
+                <div>
+                    <b>✓</b>
+                    <span>Ժամանակակից ապրանքներ</span>
+                </div>
+
+                <div>
+                    <b>✓</b>
+                    <span>Խորհրդատվություն</span>
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- CONTACT -->
+
+<section class="contact" id="contact">
+
+    <div class="container">
+
+        <div class="contact-box">
+
+            <div class="contact-text">
+
+                <span>ԿԱՊ ՄԵԶ ՀԵՏ</span>
+
+                <h2>
+                    Հարց ունե՞ս։
+                    Կապվիր մեզ հետ։
+                </h2>
+
+                <p>
+                    Զանգահարեք մեզ կամ այցելեք խանութ։
+                </p>
+
+            </div>
+
+
+            <div class="contact-details">
+
+                <a href="tel:+37493606588" class="contact-item">
+
+                    <div class="contact-icon">
+                        ☎
+                    </div>
+
+                    <div>
+                        <small>Հեռախոս</small>
+                        <strong>+374 93 606588</strong>
+                    </div>
+
+                </a>
+
+
+                <a
+                    href="https://www.google.com/maps/search/?api=1&query=Mob-X%2C%20Yerevanyan%20Street%2C%20Armavir%2C%20Armenia"
+                    target="_blank"
+                    class="contact-item">
+
+                    <div class="contact-icon">
+                        📍
+                    </div>
+
+                    <div>
+                        <small>Հասցե</small>
+                        <strong>Երևանյան փողոց, Արմավիր</strong>
+                    </div>
+
+                </a>
+
+
+                <div class="contact-item">
+
+                    <div class="contact-icon">
+                        🕘
+                    </div>
+
+                    <div>
+                        <small>Աշխատանքային ժամեր</small>
+                        <strong>Ամեն օր՝ 09:00–21:00</strong>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+</main>
+
+
+<!-- FOOTER -->
+
+<footer class="footer">
+
+    <div class="container footer-content">
+
+        <div class="footer-logo">
+            <span class="logo-icon">M</span>
+            <span>Mob<span>-X</span></span>
+        </div>
+
+        <p>
+            © <span id="year"></span> Mob-X. Բոլոր իրավունքները պաշտպանված են։
+        </p>
+
+        <a href="#home">
+            ↑ Վերև
+        </a>
+
+    </div>
+
+</footer>
+
+
+<script src="script.js"></script>
+
+</body>
+</html>
